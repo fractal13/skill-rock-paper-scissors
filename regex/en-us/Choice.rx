@@ -1,1 +1,1 @@
-(?P<Choice>\w+)
+(?P<Choice>(rock|paper|scissors|\w+))

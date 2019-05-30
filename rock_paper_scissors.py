@@ -12,6 +12,10 @@ class RockPaperScissors:
         self.resetGame( )
         return
 
+    def __str__( self ):
+        s = "RPS: User: '" + self.user_choice + "' Computer: '" + self.my_choice + "'"
+        return s
+    
     def getOptions( self ):
         # copy, so it won't be accidentally changed
         return self._OPTIONS[:]
